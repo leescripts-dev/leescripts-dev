@@ -9,27 +9,20 @@
       .active { fill:#3fb950; font:600 13px "JetBrains Mono","Fira Code",monospace; }
       .planned { fill:#d29922; font:600 13px "JetBrains Mono","Fira Code",monospace; }
       .divider { stroke:#30363d; stroke-width:1; }
-      .arrow { stroke:#58A6FF; stroke-width:2; fill:none; marker-end:url(#arrowhead); }
+      .connector { stroke:#58A6FF; stroke-width:2; opacity:0.5; }
     </style>
-    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#58A6FF"/>
-    </marker>
   </defs>
 
-  <!-- Window -->
   <rect class="window" x="1" y="1" width="518" height="518" rx="10"/>
-  <!-- Header -->
   <rect class="header" x="1" y="1" width="518" height="36" rx="10"/>
   <text x="18" y="24" class="title">Project Dashboard</text>
 
-  <!-- Prompt -->
   <text x="18" y="58" class="prompt">lee@wolf:~/projects$</text>
   <text x="203" y="58" class="text">tree</text>
   <line x1="18" y1="70" x2="500" y2="70" class="divider"/>
 
   <text x="18" y="90" class="text">.</text>
 
-  <!-- Section 1: WolfScan (72–232) -->
   <text x="18" y="106" class="text">├── 🐺 WolfScan</text>
   <text x="52" y="130" class="active">│   ├── 🟢 ACTIVE</text>
   <text x="52" y="154" class="text">│   ├── discovery/</text>
@@ -39,7 +32,6 @@
 
   <line x1="18" y1="232" x2="500" y2="232" class="divider"/>
 
-  <!-- Section 2: DarkWolf (232–392) -->
   <text x="18" y="264" class="text">├── 🌑 DarkWolf</text>
   <text x="52" y="288" class="active">│   ├── 🟢 ACTIVE</text>
   <text x="52" y="312" class="text">│   ├── crawler/</text>
@@ -48,14 +40,13 @@
 
   <line x1="18" y1="392" x2="500" y2="392" class="divider"/>
 
-  <!-- Section 3: WolfHeaders (392–520) -->
   <text x="18" y="414" class="text">└── 🛡️ WolfHeaders</text>
   <text x="52" y="430" class="planned">│   ├── 🟡 PLANNED</text>
   <text x="52" y="454" class="text">    ├── analyzer/</text>
   <text x="52" y="478" class="text">    └── recommendations/</text>
 
-  <!-- Arrows exiting right, matched to Overview card's incoming arrows -->
-  <line x1="482" y1="126" x2="518" y2="126" class="arrow"/>
-  <line x1="482" y1="286" x2="518" y2="286" class="arrow"/>
-  <line x1="482" y1="426" x2="518" y2="426" class="arrow"/>
+  <!-- plain connector lines, no arrowhead -->
+  <line x1="482" y1="126" x2="518" y2="126" class="connector"/>
+  <line x1="482" y1="286" x2="518" y2="286" class="connector"/>
+  <line x1="482" y1="426" x2="518" y2="426" class="connector"/>
 </svg>
