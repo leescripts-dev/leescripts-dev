@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="420"
+     height="410"
+     viewBox="0 0 420 410"
+     xmlns="http://www.w3.org/2000/svg">
+
+<style>
+.title{
+    font:700 18px "JetBrains Mono", monospace;
+    fill:#F0F6FC;
+}
+
+.text{
+    font:15px "JetBrains Mono", monospace;
+    fill:#F0F6FC;
+}
+
+.intro{
+    font:700 16px "JetBrains Mono", monospace;
+    fill:#58A6FF;
+}
+
+.cursor{
+    font:16px "JetBrains Mono", monospace;
+    fill:#F0F6FC;
+}
+</style>
+
+<!-- Background -->
+<rect width="420" height="410" rx="12" fill="#0D1117"/>
+
+<!-- Header -->
+<rect width="420" height="42" rx="12" fill="#161B22"/>
+
+<!-- Title -->
+<text x="20" y="27" class="title">Know Me</text>
+
+<!-- Content -->
+<text x="20" y="75" class="intro">Hi, I'm Lee.</text>
+
+<text x="20" y="105" class="text">
+<tspan x="20" dy="0">I believe cybersecurity should</tspan>
+<tspan x="20" dy="22">be practical, accessible, and</tspan>
+<tspan x="20" dy="22">continuously evolving.</tspan>
+
+<tspan x="20" dy="34">My journey has taken me from</tspan>
+<tspan x="20" dy="22">security operations to GRC,</tspan>
+<tspan x="20" dy="22">where I've developed an</tspan>
+<tspan x="20" dy="22">interest in building tools</tspan>
+<tspan x="20" dy="22">that simplify security</tspan>
+<tspan x="20" dy="22">workflows and help</tspan>
+<tspan x="20" dy="22">organizations improve their</tspan>
+<tspan x="20" dy="22">security posture.</tspan>
+
+<tspan x="20" dy="34">Today I'm building</tspan>
+<tspan x="20" dy="22">WolfScan while expanding my</tspan>
+<tspan x="20" dy="22">knowledge in cloud security</tspan>
+<tspan x="20" dy="22">and sharing everything I</tspan>
+<tspan x="20" dy="22">learn along the way.</tspan>
+
+<tspan x="20" dy="34">My long-term goal is to</tspan>
+<tspan x="20" dy="22">contribute meaningful</tspan>
+<tspan x="20" dy="22">open-source security tools</tspan>
+<tspan x="20" dy="22">that make life easier for</tspan>
+<tspan x="20" dy="22">defenders.</tspan>
+</text>
+
+<!-- Cursor -->
+<text x="20" y="392" class="cursor">█
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1s"
+             repeatCount="indefinite"/>
+</text>
+
+</svg>
