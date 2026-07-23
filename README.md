@@ -4,6 +4,8 @@
 
 ### Cybersecurity • GRC • Security Automation
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&duration=3500&pause=1200&color=58A6FF&center=true&vCenter=true&width=800&height=60&lines=Cybersecurity+Engineer;Building+WolfScan;Building+DarkWolf;Security+Automation;Open+Source+Builder)](https://git.io/typing-svg)
+
 Building cybersecurity tools and learning in public.
 
 </div>
@@ -15,43 +17,69 @@ Building cybersecurity tools and learning in public.
 ```bash
 Name      : Lee
 Role      : Cybersecurity Engineer
+
 Focus     : GRC | Threat Intelligence | Security Automation
 Learning  : Cloud Security
 Building  : WolfScan
-Mission   : Build useful security tools
+Mission   : Build security tools that solve real problems
+
 Location  : India 🇮🇳
+Status    : Hunt • Build • Learn
 ```
 
 ---
 
 ## > current_projects
 
-| Project | Description |
-|---------|-------------|
-| 🐺 WolfScan | Network Scanner & CVE Correlation |
-| 🌑 DarkWolf | Dark Web Threat Intelligence |
-| 🛡️ WolfHeaders | HTTP Security Headers Analyzer *(Coming Soon)* |
+| Project | Description | Status |
+|----------|-------------|--------|
+| 🐺 **WolfScan** | Network Scanner & CVE Correlation | 🚧 Active |
+| 🌑 **DarkWolf** | Dark Web Threat Intelligence Platform | 🚧 Active |
+| 🛡️ **WolfHeaders** | HTTP Security Headers Analyzer | 📝 Planned |
 
 ---
 
 ## > tech_stack
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+<p>
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/Nmap-214478?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white"/>
+
+</p>
 
 ---
 
 ## > github_stats
 
-Coming Soon...
+> _Loading live metrics..._
+
+<!-- GitHub Stats -->
+<!-- Streak Stats -->
+<!-- Top Languages -->
+<!-- Activity Graph -->
+<!-- Contribution Snake -->
+
+*(Coming in the next step.)*
 
 ---
 
 ## > connect
 
-- LinkedIn
-- Email
-- Portfolio (Soon)
+- 💼 LinkedIn: https://linkedin.com/in/lichumon-surendran-a87345219
+- 📧 Email: scriptslee@gmail.com
+- 🌐 Portfolio: Coming Soon
+
+---
+
+<div align="center">
+
+> **"Build. Break. Learn. Repeat."**
+
+</div>
