@@ -15,7 +15,7 @@ Building cybersecurity tools and learning in public.
 ---
 <div >
 
-<img src="./assets/wolf-terminal.svg" width="700" alt="Wolf Terminal"/>
+<img src="./assets/wolf-terminal.svg" width="450" alt="Wolf Terminal"/>
 
 </div>
 
