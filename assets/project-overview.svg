@@ -1,0 +1,130 @@
+<svg width="520" height="520" viewBox="0 0 520 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .window{
+        fill:#0d1117;
+        stroke:#30363d;
+        stroke-width:1.5;
+      }
+
+      .header{
+        fill:#161b22;
+      }
+
+      .title{
+        fill:#f0f6fc;
+        font:700 16px "JetBrains Mono","Fira Code",monospace;
+      }
+
+      .text{
+        fill:#c9d1d9;
+        font:13px "JetBrains Mono","Fira Code",monospace;
+      }
+
+      .divider{
+        stroke:#30363d;
+        stroke-width:1;
+      }
+
+      .arrow{
+        stroke:#58A6FF;
+        stroke-width:2;
+        fill:none;
+        marker-start:url(#arrow);
+      }
+    </style>
+
+    <marker id="arrow"
+            markerWidth="10"
+            markerHeight="10"
+            refX="8"
+            refY="3"
+            orient="auto">
+      <path d="M8,3 L0,0 L0,6 Z" fill="#58A6FF"/>
+    </marker>
+
+  </defs>
+
+  <!-- Window -->
+
+  <rect x="1" y="1" width="518" height="518" rx="10" class="window"/>
+
+  <!-- Header -->
+
+  <rect x="1" y="1" width="518" height="36" rx="10" class="header"/>
+
+  <text x="18" y="24" class="title">Project Overview</text>
+
+  <!-- Arrow indicators -->
+
+  <line x1="0" y1="126" x2="18" y2="126" class="arrow"/>
+  <line x1="0" y1="286" x2="18" y2="286" class="arrow"/>
+  <line x1="0" y1="426" x2="18" y2="426" class="arrow"/>
+
+  <!-- Section 1 -->
+
+  <line x1="18" y1="72" x2="500" y2="72" class="divider"/>
+
+  <text x="26" y="104" class="title">WolfScan</text>
+
+  <text x="26" y="130" class="text">
+Attack Surface Management platform
+  </text>
+
+  <text x="26" y="152" class="text">
+focused on reconnaissance, technology
+  </text>
+
+  <text x="26" y="174" class="text">
+fingerprinting, CVE correlation,
+  </text>
+
+  <text x="26" y="196" class="text">
+and exposure risk prioritization.
+  </text>
+
+  <!-- Divider -->
+
+  <line x1="18" y1="232" x2="500" y2="232" class="divider"/>
+
+  <!-- Section 2 -->
+
+  <text x="26" y="264" class="title">DarkWolf</text>
+
+  <text x="26" y="290" class="text">
+Dark web threat intelligence platform
+  </text>
+
+  <text x="26" y="312" class="text">
+for monitoring ransomware groups,
+  </text>
+
+  <text x="26" y="334" class="text">
+leaked data and underground
+  </text>
+
+  <text x="26" y="356" class="text">
+intelligence sources.
+  </text>
+
+  <!-- Divider -->
+
+  <line x1="18" y1="392" x2="500" y2="392" class="divider"/>
+
+  <!-- Section 3 -->
+
+  <text x="26" y="424" class="title">WolfHeaders</text>
+
+  <text x="26" y="450" class="text">
+HTTP security header analyzer that
+  </text>
+
+  <text x="26" y="472" class="text">
+detects missing headers and provides
+  </text>
+
+  <text x="26" y="494" class="text">
+industry best practice recommendations.
+  </text>
+
+</svg>
