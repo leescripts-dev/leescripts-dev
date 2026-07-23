@@ -8,6 +8,8 @@
 
 Building cybersecurity tools and learning in public.
 
+![](https://komarev.com/ghpvc/?username=leescripts-dev&label=Profile+Views&color=58A6FF&style=flat)
+
 </div>
 
 ---
@@ -21,7 +23,7 @@ Role      : Cybersecurity Engineer
 Focus     : GRC | Threat Intelligence | Security Automation
 Learning  : Cloud Security
 Building  : WolfScan
-Mission   : Build security tools that solve real problems
+Mission   : Build security tools that solve real-world problems
 
 Location  : India 🇮🇳
 Status    : Hunt • Build • Learn
@@ -41,7 +43,7 @@ Status    : Hunt • Build • Learn
 
 ## > tech_stack
 
-<p>
+<p align="left">
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
@@ -58,28 +60,56 @@ Status    : Hunt • Build • Learn
 
 ## > github_stats
 
-> _Loading live metrics..._
+<div align="center">
 
-<!-- GitHub Stats -->
-<!-- Streak Stats -->
-<!-- Top Languages -->
-<!-- Activity Graph -->
-<!-- Contribution Snake -->
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=leescripts-dev&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github"/>
 
-*(Coming in the next step.)*
+<img height="170" src="https://streak-stats.demolab.com?user=leescripts-dev&theme=github-dark-blue&hide_border=true"/>
+
+</div>
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leescripts-dev&layout=compact&theme=github_dark&hide_border=true"/>
+
+</div>
+
+---
+
+## > contribution_graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=leescripts-dev&theme=github-dark&hide_border=true"/>
+
+</div>
+
+---
+
+## > contribution_snake
+
+_Coming soon..._
 
 ---
 
 ## > connect
 
-- 💼 LinkedIn: https://linkedin.com/in/lichumon-surendran-a87345219
-- 📧 Email: scriptslee@gmail.com
-- 🌐 Portfolio: Coming Soon
+<p align="left">
+
+<a href="https://www.linkedin.com/in/lichumon-surendran-a87345219">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:scriptslee@gmail.com">
+<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+</p>
 
 ---
 
 <div align="center">
 
-> **"Build. Break. Learn. Repeat."**
+### 🐺 "Build. Break. Learn. Repeat."
 
 </div>
