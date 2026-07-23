@@ -52,10 +52,10 @@
     </style>
 
     <!-- Background -->
-    <rect width="900" height="410" rx="12" fill="#0D1117"/>
+    <rect width="750" height="410" rx="12" fill="#0D1117"/>
 
     <!-- Header -->
-    <rect width="900" height="42" rx="12" fill="#161B22"/>
+    <rect width="750" height="42" rx="12" fill="#161B22"/>
 
     <!-- Window Buttons -->
 
@@ -63,7 +63,7 @@
 
     <!-- Title -->
     <text x="35" y="27" class="title">WOLF TERMINAL</text>
-    <text x="790" y="27" class="online">ONLINE</text>
+    <text x="640" y="27" class="online">ONLINE</text>
 
     <!-- ================================================= -->
     <!-- Boot Sequence                                     -->
