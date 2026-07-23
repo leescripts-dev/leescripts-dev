@@ -36,8 +36,6 @@ Building cybersecurity tools and learning in public.
 </tr>
 </table>
 
----
-
 ## Projects
 
 <table>
