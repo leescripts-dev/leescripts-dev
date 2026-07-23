@@ -16,7 +16,6 @@ Building cybersecurity tools and learning in public.
 
 ## About Me
 
-
 <table>
 <tr>
 
@@ -37,11 +36,31 @@ Building cybersecurity tools and learning in public.
 </tr>
 </table>
 
+---
+
 ## Projects
 
-<p>
-  <img src="assets/project-dashboard.svg" width="30%" alt="Project Dashboard">
-</p>
+<table>
+<tr>
+
+<td valign="top" width="52%">
+
+<img src="./assets/project-dashboard.svg" width="500" alt="Project Dashboard"/>
+
+</td>
+
+<td width="8"></td>
+
+<td valign="top" width="48%">
+
+<img src="./assets/project-overview.svg" width="500" alt="Project Overview"/>
+
+</td>
+
+</tr>
+</table>
+
+---
 
 ## > tech_stack
 
