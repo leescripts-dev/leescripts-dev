@@ -1,76 +1,166 @@
-<svg width="900" height="540" viewBox="0 0 900 540" xmlns="http://www.w3.org/2000/svg">
+<svg width="520" height="540" viewBox="0 0 520 540" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .window { fill:#0d1117; stroke:#30363d; stroke-width:1.5; }
-      .header { fill:#161b22; }
+      .window {
+        fill:#0d1117;
+        stroke:#30363d;
+        stroke-width:1.5;
+      }
+
+      .header {
+        fill:#161b22;
+      }
+
       .title {
         fill:#f0f6fc;
         font:700 16px "JetBrains Mono","Fira Code",monospace;
       }
+
       .prompt {
         fill:#58a6ff;
         font:600 13px "JetBrains Mono","Fira Code",monospace;
       }
+
       .text {
         fill:#c9d1d9;
         font:13px "JetBrains Mono","Fira Code",monospace;
       }
+
       .active {
         fill:#3fb950;
         font:600 13px "JetBrains Mono","Fira Code",monospace;
       }
+
       .planned {
         fill:#d29922;
         font:600 13px "JetBrains Mono","Fira Code",monospace;
       }
+
       .divider{
         stroke:#30363d;
         stroke-width:1;
       }
+
+      .arrow{
+        stroke:#58a6ff;
+        stroke-width:2;
+        marker-end:url(#arrowhead);
+      }
     </style>
+
+    <marker id="arrowhead"
+      markerWidth="10"
+      markerHeight="7"
+      refX="9"
+      refY="3.5"
+      orient="auto">
+
+      <polygon points="0 0, 10 3.5, 0 7"
+        fill="#58a6ff"/>
+    </marker>
+
   </defs>
 
   <!-- Window -->
-  <rect class="window" x="1" y="1" width="898" height="538" rx="10"/>
+  <rect class="window" x="1" y="1" width="518" height="538" rx="10"/>
 
   <!-- Header -->
-  <rect class="header" x="1" y="1" width="898" height="36" rx="10"/>
-  <text x="20" y="24" class="title">Project Dashboard</text>
+  <rect class="header" x="1" y="1" width="518" height="36" rx="10"/>
+
+  <text x="20" y="24" class="title">
+Project Dashboard
+  </text>
 
   <!-- Prompt -->
-  <text x="20" y="58" class="prompt">lee@wolf:~/projects$</text>
-  <text x="205" y="58" class="text">tree</text>
 
-  <line x1="20" y1="70" x2="880" y2="70" class="divider"/>
+  <text x="20" y="58" class="prompt">
+lee@wolf:~/projects$
+  </text>
+
+  <text x="205" y="58" class="text">
+tree
+  </text>
+
+  <line x1="20" y1="70" x2="500" y2="70" class="divider"/>
 
   <text x="20" y="96" class="text">.</text>
 
   <!-- WolfScan -->
-  <text x="20" y="122" class="text">├── 🐺 WolfScan</text>
-  <text x="56" y="146" class="text">│   ├── discovery/</text>
-  <text x="56" y="170" class="text">│   ├── fingerprinting/</text>
-  <text x="56" y="194" class="text">│   ├── cve-intel/</text>
-  <text x="56" y="218" class="text">│   ├── risk-engine/</text>
-  <text x="56" y="242" class="active">│   └── 🟢 ACTIVE</text>
+
+  <text x="20" y="122" class="text">
+├── 🐺 WolfScan
+  </text>
+
+  <text x="56" y="146" class="text">
+│   ├── discovery/
+  </text>
+
+  <text x="56" y="170" class="text">
+│   ├── fingerprinting/
+  </text>
+
+  <text x="56" y="194" class="text">
+│   ├── cve-intel/
+  </text>
+
+  <text x="56" y="218" class="text">
+│   ├── risk-engine/
+  </text>
+
+  <text x="56" y="242" class="active">
+│   └── 🟢 ACTIVE
+  </text>
 
   <text x="56" y="266" class="text">│</text>
 
   <!-- DarkWolf -->
-  <text x="20" y="292" class="text">├── 🌑 DarkWolf</text>
-  <text x="56" y="316" class="text">│   ├── crawler/</text>
-  <text x="56" y="340" class="text">│   ├── leak-monitor/</text>
-  <text x="56" y="364" class="text">│   ├── intel-engine/</text>
-  <text x="56" y="388" class="active">│   └── 🟢 ACTIVE</text>
+
+  <text x="20" y="292" class="text">
+├── 🌑 DarkWolf
+  </text>
+
+  <text x="56" y="316" class="text">
+│   ├── crawler/
+  </text>
+
+  <text x="56" y="340" class="text">
+│   ├── leak-monitor/
+  </text>
+
+  <text x="56" y="364" class="text">
+│   ├── intel-engine/
+  </text>
+
+  <text x="56" y="388" class="active">
+│   └── 🟢 ACTIVE
+  </text>
 
   <text x="56" y="412" class="text">│</text>
 
   <!-- WolfHeaders -->
-  <text x="20" y="438" class="text">└── 🛡️ WolfHeaders</text>
-  <text x="56" y="462" class="text">    ├── analyzer/</text>
-  <text x="56" y="486" class="text">    ├── recommendations/</text>
-  <text x="56" y="510" class="planned">    └── 🟡 PLANNED</text>
 
-  <!-- Footer -->
-  <text x="20" y="530" class="text">3 projects, 9 modules</text>
+  <text x="20" y="438" class="text">
+└── 🛡️ WolfHeaders
+  </text>
+
+  <text x="56" y="462" class="text">
+    ├── analyzer/
+  </text>
+
+  <text x="56" y="486" class="text">
+    ├── recommendations/
+  </text>
+
+  <text x="56" y="510" class="planned">
+    └── 🟡 PLANNED
+  </text>
+
+  <!-- Straight arrows -->
+
+  <line x1="482" y1="182" x2="518" y2="182" class="arrow"/>
+
+  <line x1="482" y1="340" x2="518" y2="340" class="arrow"/>
+
+  <line x1="482" y1="470" x2="518" y2="470" class="arrow"/>
 
 </svg>
