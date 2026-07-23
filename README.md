@@ -37,7 +37,7 @@ Building cybersecurity tools and learning in public.
 </tr>
 </table>
 
-
+## Projects
 
 <p align="center">
   <img src="assets/project-dashboard.svg" width="100%" alt="Project Dashboard">
