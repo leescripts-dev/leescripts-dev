@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/wolf.png" width="170" alt="Wolf">
+</p>
+
 <div align="center">
 
 ### Cybersecurity • GRC • Security Automation
