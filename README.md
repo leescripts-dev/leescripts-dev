@@ -6,18 +6,32 @@
 
 Building cybersecurity tools and learning in public.
 
-
 </div>
 
-<br><br>
+<br>
 
-### About Me
----
-<div >
+## About Me
+
+
+<table>
+<tr>
+
+<td valign="top" width="52%">
 
 <img src="./assets/wolf-terminal.svg" width="450" alt="Wolf Terminal"/>
 
-</div>
+</td>
+
+<td width="20"></td>
+
+<td valign="top" width="48%">
+
+<img src="./assets/know-me.svg" width="420" alt="Know Me"/>
+
+</td>
+
+</tr>
+</table>
 
 ---
 
