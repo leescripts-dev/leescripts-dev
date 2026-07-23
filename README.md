@@ -14,20 +14,11 @@ Building cybersecurity tools and learning in public.
 
 ---
 
-## > whoami
+<div align="center">
 
-```bash
-Name      : Lee
-Role      : Cybersecurity Engineer
+<img src="./assets/wolf-terminal.svg" width="900" alt="Wolf Terminal"/>
 
-Focus     : GRC | Threat Intelligence | Security Automation
-Learning  : Cloud Security
-Building  : WolfScan
-Mission   : Build security tools that solve real-world problems
-
-Location  : India 🇮🇳
-Status    : Hunt • Build • Learn
-```
+</div>
 
 ---
 
@@ -94,6 +85,8 @@ Status    : Hunt • Build • Learn
 
 </div>
 
+---
+
 ## > connect
 
 <p align="left">
@@ -112,6 +105,6 @@ Status    : Hunt • Build • Learn
 
 <div align="center">
 
-### 🐺 "Build. Break. Learn. Repeat."
+### 🐺 Build • Hunt • Learn
 
 </div>
