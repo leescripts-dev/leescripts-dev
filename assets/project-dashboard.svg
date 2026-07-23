@@ -1,33 +1,29 @@
-<svg width="900" height="390" viewBox="0 0 900 390" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="540" viewBox="0 0 900 540" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
       .window { fill:#0d1117; stroke:#30363d; stroke-width:1.5; }
       .header { fill:#161b22; }
       .title {
         fill:#f0f6fc;
-        font:700 15px "JetBrains Mono","Fira Code",monospace;
+        font:700 16px "JetBrains Mono","Fira Code",monospace;
       }
       .prompt {
         fill:#58a6ff;
-        font:600 12.5px "JetBrains Mono","Fira Code",monospace;
+        font:600 13px "JetBrains Mono","Fira Code",monospace;
       }
       .text {
         fill:#c9d1d9;
-        font:12.5px "JetBrains Mono","Fira Code",monospace;
-      }
-      .accent {
-        fill:#58a6ff;
-        font:600 12.5px "JetBrains Mono","Fira Code",monospace;
+        font:13px "JetBrains Mono","Fira Code",monospace;
       }
       .active {
         fill:#3fb950;
-        font:600 12.5px "JetBrains Mono","Fira Code",monospace;
+        font:600 13px "JetBrains Mono","Fira Code",monospace;
       }
       .planned {
         fill:#d29922;
-        font:600 12.5px "JetBrains Mono","Fira Code",monospace;
+        font:600 13px "JetBrains Mono","Fira Code",monospace;
       }
-      .line {
+      .divider{
         stroke:#30363d;
         stroke-width:1;
       }
@@ -35,58 +31,46 @@
   </defs>
 
   <!-- Window -->
-  <rect class="window" x="1" y="1" width="898" height="388" rx="10"/>
+  <rect class="window" x="1" y="1" width="898" height="538" rx="10"/>
 
   <!-- Header -->
-  <rect class="header" x="1" y="1" width="898" height="34" rx="10"/>
-  <text x="22" y="22" class="title">Project Dashboard</text>
+  <rect class="header" x="1" y="1" width="898" height="36" rx="10"/>
+  <text x="20" y="24" class="title">Project Dashboard</text>
 
   <!-- Prompt -->
-  <text x="22" y="58" class="prompt">lee@wolf:~/projects$</text>
+  <text x="20" y="58" class="prompt">lee@wolf:~/projects$</text>
   <text x="205" y="58" class="text">tree</text>
 
-  <!-- Column headers -->
-  <text x="22" y="90" class="accent">PROJECTS</text>
-  <text x="565" y="90" class="accent">OVERVIEW</text>
+  <line x1="20" y1="70" x2="880" y2="70" class="divider"/>
 
-  <line x1="22" y1="100" x2="878" y2="100" class="line"/>
+  <text x="20" y="96" class="text">.</text>
 
-  <!-- Root -->
-  <text x="22" y="125" class="text">.</text>
+  <!-- WolfScan -->
+  <text x="20" y="122" class="text">├── 🐺 WolfScan</text>
+  <text x="56" y="146" class="text">│   ├── discovery/</text>
+  <text x="56" y="170" class="text">│   ├── fingerprinting/</text>
+  <text x="56" y="194" class="text">│   ├── cve-intel/</text>
+  <text x="56" y="218" class="text">│   ├── risk-engine/</text>
+  <text x="56" y="242" class="active">│   └── 🟢 ACTIVE</text>
 
-  <!-- ================= WolfScan ================= -->
+  <text x="56" y="266" class="text">│</text>
 
-  <text x="22" y="148" class="text">├── 🐺 WolfScan</text>
+  <!-- DarkWolf -->
+  <text x="20" y="292" class="text">├── 🌑 DarkWolf</text>
+  <text x="56" y="316" class="text">│   ├── crawler/</text>
+  <text x="56" y="340" class="text">│   ├── leak-monitor/</text>
+  <text x="56" y="364" class="text">│   ├── intel-engine/</text>
+  <text x="56" y="388" class="active">│   └── 🟢 ACTIVE</text>
 
-  <text x="58" y="170" class="text">│   ├── discovery/</text>
-  <text x="58" y="190" class="text">│   ├── fingerprinting/</text>
-  <text x="58" y="210" class="text">│   ├── cve-intel/</text>
-  <text x="58" y="230" class="text">│   ├── risk-engine/</text>
-  <text x="58" y="250" class="active">│   └── status: ACTIVE</text>
+  <text x="56" y="412" class="text">│</text>
 
-  <text x="565" y="148" class="text">Attack Surface Management</text>
-  <text x="565" y="170" class="text">• CVEs • Risk Scoring</text>
+  <!-- WolfHeaders -->
+  <text x="20" y="438" class="text">└── 🛡️ WolfHeaders</text>
+  <text x="56" y="462" class="text">    ├── analyzer/</text>
+  <text x="56" y="486" class="text">    ├── recommendations/</text>
+  <text x="56" y="510" class="planned">    └── 🟡 PLANNED</text>
 
-  <!-- ================= DarkWolf ================= -->
-
-  <text x="22" y="280" class="text">├── 🌑 DarkWolf</text>
-
-  <text x="58" y="300" class="text">│   ├── crawler/</text>
-  <text x="58" y="320" class="text">│   ├── leak-monitor/</text>
-  <text x="58" y="340" class="text">│   ├── intel-engine/</text>
-  <text x="58" y="360" class="active">│   └── status: ACTIVE</text>
-
-  <text x="565" y="280" class="text">Dark Web Threat Intelligence</text>
-  <text x="565" y="300" class="text">• Crawling • Monitoring • IOCs</text>
-
-  <!-- ================= WolfHeaders ================= -->
-
-  <text x="320" y="320" class="text">└── 🛡️ WolfHeaders</text>
-
-  <text x="356" y="340" class="text">    ├── analyzer/</text>
-  <text x="356" y="360" class="planned">    └── status: PLANNED</text>
-
-  <text x="565" y="340" class="text">HTTP Security Headers</text>
-  <text x="565" y="360" class="text">• Validation • Best Practices</text>
+  <!-- Footer -->
+  <text x="20" y="530" class="text">3 projects, 9 modules</text>
 
 </svg>
