@@ -88,9 +88,11 @@ Status    : Hunt • Build • Learn
 
 ## > contribution_snake
 
-_Coming soon..._
+<div align="center">
 
----
+<img src="https://raw.githubusercontent.com/leescripts-dev/leescripts-dev/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake"/>
+
+</div>
 
 ## > connect
 
