@@ -53,7 +53,7 @@ Building cybersecurity tools and learning in public.
 
 <td valign="top" width="48%">
 
-<img src="./assets/project-overview.svg" width="500" alt="Project Overview"/>
+<img src="./aasets/project-overview.svg" width="500" alt="Project Overview"/>
 
 </td>
 
