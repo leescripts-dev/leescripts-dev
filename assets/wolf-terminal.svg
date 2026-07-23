@@ -1,31 +1,232 @@
-<svg width="900" height="340" viewBox="0 0 900 340" xmlns="http://www.w3.org/2000/svg">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900"
+     height="410"
+     viewBox="0 0 900 410"
+     xmlns="http://www.w3.org/2000/svg">
+
+    <style>
+        .title{
+            font:700 18px "JetBrains Mono", monospace;
+            fill:#F0F6FC;
+        }
+
+        .online{
+            font:600 16px "JetBrains Mono", monospace;
+            fill:#3FB950;
+        }
+
+        .terminal{
+            font:18px "JetBrains Mono", monospace;
+            fill:#F0F6FC;
+        }
+
+        .success{
+            font:18px "JetBrains Mono", monospace;
+            fill:#3FB950;
+        }
+
+        .label{
+            font:18px "JetBrains Mono", monospace;
+            fill:#8B949E;
+        }
+
+        .separator{
+            font:18px "JetBrains Mono", monospace;
+            fill:#58A6FF;
+        }
+
+        .value{
+            font:18px "JetBrains Mono", monospace;
+            fill:#F0F6FC;
+        }
+
+        .userprompt{
+            font:18px "JetBrains Mono", monospace;
+            fill:#58A6FF;
+        }
+
+        .hostprompt{
+            font:18px "JetBrains Mono", monospace;
+            fill:#3FB950;
+        }
+    </style>
 
     <!-- Background -->
-    <rect width="900" height="340" rx="12" fill="#0D1117"/>
+    <rect width="900" height="410" rx="12" fill="#0D1117"/>
 
     <!-- Header -->
     <rect width="900" height="42" rx="12" fill="#161B22"/>
 
-    <circle cx="20" cy="21" r="6" fill="#ff5f56"/>
-    <circle cx="40" cy="21" r="6" fill="#ffbd2e"/>
-    <circle cx="60" cy="21" r="6" fill="#27c93f"/>
+    <!-- Window Buttons -->
+    <circle cx="20" cy="21" r="6" fill="#FF5F56"/>
+    <circle cx="40" cy="21" r="6" fill="#FFBD2E"/>
+    <circle cx="60" cy="21" r="6" fill="#27C93F"/>
 
-    <text
-        x="90"
-        y="27"
-        fill="#F0F6FC"
-        font-size="18"
-        font-family="JetBrains Mono, monospace">
-        WOLF TERMINAL
+    <!-- Title -->
+    <text x="90" y="27" class="title">WOLF TERMINAL</text>
+    <text x="790" y="27" class="online">ONLINE</text>
+
+    <!-- ================================================= -->
+    <!-- Boot Sequence                                     -->
+    <!-- ================================================= -->
+
+    <g opacity="0">
+
+        <text x="30" y="80" class="userprompt">lee</text>
+        <text x="64" y="80" class="hostprompt">@wolf:~$</text>
+        <text x="170" y="80" class="terminal">initializing profile...</text>
+
+        <set
+            attributeName="opacity"
+            to="1"
+            begin="0.5s"
+            fill="freeze"/>
+
+    </g>
+
+    <text x="50" y="110" class="success" opacity="0">
+        ✓ Identity Loaded
+        <set
+            attributeName="opacity"
+            to="1"
+            begin="1.2s"
+            fill="freeze"/>
     </text>
 
-    <text
-        x="790"
-        y="27"
-        fill="#3FB950"
-        font-size="16"
-        font-family="JetBrains Mono, monospace">
-        ONLINE
+    <text x="50" y="140" class="success" opacity="0">
+        ✓ Projects Loaded
+        <set
+            attributeName="opacity"
+            to="1"
+            begin="1.8s"
+            fill="freeze"/>
+    </text>
+
+    <text x="50" y="170" class="success" opacity="0">
+        ✓ GitHub Activity Loaded
+        <set
+            attributeName="opacity"
+            to="1"
+            begin="2.4s"
+            fill="freeze"/>
+    </text>
+
+    <!-- ================================================= -->
+    <!-- whoami                                            -->
+    <!-- ================================================= -->
+
+    <g opacity="0">
+
+        <text x="30" y="220" class="userprompt">lee</text>
+        <text x="64" y="220" class="hostprompt">@wolf:~$</text>
+        <text x="170" y="220" class="terminal">whoami</text>
+
+        <set
+            attributeName="opacity"
+            to="1"
+            begin="3.2s"
+            fill="freeze"/>
+
+    </g>
+
+    <!-- USER -->
+
+    <g opacity="0">
+
+        <text x="50" y="255" class="label">USER</text>
+        <text x="175" y="255" class="separator">:</text>
+        <text x="195" y="255" class="value">Lee</text>
+
+        <set
+            attributeName="opacity"
+            to="1"
+            begin="3.8s"
+            fill="freeze"/>
+
+    </g>
+
+    <!-- ROLE -->
+
+    <g opacity="0">
+
+        <text x="50" y="280" class="label">ROLE</text>
+        <text x="175" y="280" class="separator">:</text>
+        <text x="195" y="280" class="value">Cybersecurity Engineer</text>
+
+        <set
+            attributeName="opacity"
+            to="1"
+            begin="4.4s"
+            fill="freeze"/>
+
+    </g>
+
+    <!-- BUILDING -->
+
+    <g opacity="0">
+
+        <text x="50" y="305" class="label">BUILDING</text>
+        <text x="175" y="305" class="separator">:</text>
+        <text x="195" y="305" class="value">WolfScan</text>
+
+        <set
+            attributeName="opacity"
+            to="1"
+            begin="5.0s"
+            fill="freeze"/>
+
+    </g>
+
+    <!-- TARGET -->
+
+    <g opacity="0">
+
+        <text x="50" y="330" class="label">TARGET</text>
+        <text x="175" y="330" class="separator">:</text>
+        <text x="195" y="330" class="value">WolfHeaders</text>
+
+        <set
+            attributeName="opacity"
+            to="1"
+            begin="5.6s"
+            fill="freeze"/>
+
+    </g>
+
+    <!-- STATUS -->
+
+    <g opacity="0">
+
+        <text x="50" y="355" class="label">STATUS</text>
+        <text x="175" y="355" class="separator">:</text>
+        <text x="195" y="355" class="value">Hunt • Build • Learn</text>
+
+        <set
+            attributeName="opacity"
+            to="1"
+            begin="6.2s"
+            fill="freeze"/>
+
+    </g>
+
+    <!-- Cursor -->
+
+    <text x="455" y="355" class="terminal" opacity="0">
+        █
+
+        <set
+            attributeName="opacity"
+            to="1"
+            begin="6.8s"
+            fill="freeze"/>
+
+        <animate
+            attributeName="opacity"
+            values="1;0;1"
+            dur="1s"
+            begin="6.8s"
+            repeatCount="indefinite"/>
+
     </text>
 
 </svg>
