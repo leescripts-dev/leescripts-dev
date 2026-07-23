@@ -1,64 +1,92 @@
-<svg width="900" height="520" viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="390" viewBox="0 0 900 390" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .bg{fill:#0d1117;stroke:#30363d;stroke-width:1.5;}
-      .header{fill:#161b22;}
-      .title{fill:#f0f6fc;font:700 17px 'JetBrains Mono',monospace;}
-      .text{fill:#c9d1d9;font:14px 'JetBrains Mono',monospace;}
-      .accent{fill:#58a6ff;font:14px 'JetBrains Mono',monospace;}
-      .status{fill:#3fb950;font:14px 'JetBrains Mono',monospace;}
-      .planned{fill:#d29922;font:14px 'JetBrains Mono',monospace;}
-      .divider{stroke:#30363d;stroke-width:1;}
+      .window { fill:#0d1117; stroke:#30363d; stroke-width:1.5; }
+      .header { fill:#161b22; }
+      .title {
+        fill:#f0f6fc;
+        font:700 15px "JetBrains Mono","Fira Code",monospace;
+      }
+      .prompt {
+        fill:#58a6ff;
+        font:600 12.5px "JetBrains Mono","Fira Code",monospace;
+      }
+      .text {
+        fill:#c9d1d9;
+        font:12.5px "JetBrains Mono","Fira Code",monospace;
+      }
+      .accent {
+        fill:#58a6ff;
+        font:600 12.5px "JetBrains Mono","Fira Code",monospace;
+      }
+      .active {
+        fill:#3fb950;
+        font:600 12.5px "JetBrains Mono","Fira Code",monospace;
+      }
+      .planned {
+        fill:#d29922;
+        font:600 12.5px "JetBrains Mono","Fira Code",monospace;
+      }
+      .line {
+        stroke:#30363d;
+        stroke-width:1;
+      }
     </style>
   </defs>
 
   <!-- Window -->
-  <rect class="bg" x="1" y="1" rx="10" width="898" height="518"/>
+  <rect class="window" x="1" y="1" width="898" height="388" rx="10"/>
 
   <!-- Header -->
-  <rect class="header" x="1" y="1" rx="10" width="898" height="42"/>
-  <text x="24" y="27" class="title">Project Dashboard</text>
+  <rect class="header" x="1" y="1" width="898" height="34" rx="10"/>
+  <text x="22" y="22" class="title">Project Dashboard</text>
 
   <!-- Prompt -->
-  <text x="24" y="70" class="accent">lee@wolf:~/projects$</text>
-  <text x="220" y="70" class="text">tree</text>
+  <text x="22" y="58" class="prompt">lee@wolf:~/projects$</text>
+  <text x="205" y="58" class="text">tree</text>
 
-  <!-- Headings -->
-  <text x="24" y="105" class="accent">PROJECTS</text>
-  <text x="565" y="105" class="accent">OVERVIEW</text>
+  <!-- Column headers -->
+  <text x="22" y="90" class="accent">PROJECTS</text>
+  <text x="565" y="90" class="accent">OVERVIEW</text>
 
-  <line x1="24" y1="115" x2="876" y2="115" class="divider"/>
+  <line x1="22" y1="100" x2="878" y2="100" class="line"/>
 
-  <!-- Tree -->
+  <!-- Root -->
+  <text x="22" y="125" class="text">.</text>
 
-  <text x="24" y="145" class="text">.</text>
+  <!-- ================= WolfScan ================= -->
 
-  <text x="24" y="175" class="text">├── 🐺 WolfScan</text>
-  <text x="64" y="200" class="text">│   ├── discovery/</text>
-  <text x="64" y="225" class="text">│   ├── fingerprinting/</text>
-  <text x="64" y="250" class="text">│   ├── cve-intel/</text>
-  <text x="64" y="275" class="text">│   ├── risk-engine/</text>
-  <text x="64" y="300" class="status">│   └── status: ACTIVE</text>
+  <text x="22" y="148" class="text">├── 🐺 WolfScan</text>
 
-  <text x="565" y="175" class="text">Attack Surface Management</text>
-  <text x="565" y="200" class="text">• CVE Correlation</text>
-  <text x="565" y="225" class="text">• Risk Prioritization</text>
+  <text x="58" y="170" class="text">│   ├── discovery/</text>
+  <text x="58" y="190" class="text">│   ├── fingerprinting/</text>
+  <text x="58" y="210" class="text">│   ├── cve-intel/</text>
+  <text x="58" y="230" class="text">│   ├── risk-engine/</text>
+  <text x="58" y="250" class="active">│   └── status: ACTIVE</text>
 
-  <text x="24" y="345" class="text">├── 🌑 DarkWolf</text>
-  <text x="64" y="370" class="text">│   ├── crawler/</text>
-  <text x="64" y="395" class="text">│   ├── leak-monitor/</text>
-  <text x="64" y="420" class="text">│   ├── intel-engine/</text>
-  <text x="64" y="445" class="status">│   └── status: ACTIVE</text>
+  <text x="565" y="148" class="text">Attack Surface Management</text>
+  <text x="565" y="170" class="text">• CVEs • Risk Scoring</text>
 
-  <text x="565" y="345" class="text">Dark Web Threat Intelligence</text>
-  <text x="565" y="370" class="text">• Hidden Service Crawling</text>
-  <text x="565" y="395" class="text">• Threat Monitoring</text>
-  <text x="565" y="420" class="text">• IOC Extraction</text>
+  <!-- ================= DarkWolf ================= -->
 
-  <text x="24" y="485" class="text">└── 🛡️ WolfHeaders</text>
-  <text x="64" y="510" class="text">    ├── analyzer/</text>
-  <text x="300" y="510" class="planned">status: PLANNED</text>
+  <text x="22" y="280" class="text">├── 🌑 DarkWolf</text>
 
-  <text x="565" y="485" class="text">HTTP Security Headers Analyzer</text>
-  <text x="565" y="510" class="text">• Security Best Practices</text>
+  <text x="58" y="300" class="text">│   ├── crawler/</text>
+  <text x="58" y="320" class="text">│   ├── leak-monitor/</text>
+  <text x="58" y="340" class="text">│   ├── intel-engine/</text>
+  <text x="58" y="360" class="active">│   └── status: ACTIVE</text>
+
+  <text x="565" y="280" class="text">Dark Web Threat Intelligence</text>
+  <text x="565" y="300" class="text">• Crawling • Monitoring • IOCs</text>
+
+  <!-- ================= WolfHeaders ================= -->
+
+  <text x="320" y="320" class="text">└── 🛡️ WolfHeaders</text>
+
+  <text x="356" y="340" class="text">    ├── analyzer/</text>
+  <text x="356" y="360" class="planned">    └── status: PLANNED</text>
+
+  <text x="565" y="340" class="text">HTTP Security Headers</text>
+  <text x="565" y="360" class="text">• Validation • Best Practices</text>
+
 </svg>
