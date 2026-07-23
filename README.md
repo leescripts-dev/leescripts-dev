@@ -37,17 +37,11 @@ Building cybersecurity tools and learning in public.
 </tr>
 </table>
 
----
 
-## > current_projects
 
-| Project | Description | Status |
-|----------|-------------|--------|
-| 🐺 **WolfScan** | Network Scanner & CVE Correlation | 🚧 Active |
-| 🌑 **DarkWolf** | Dark Web Threat Intelligence Platform | 🚧 Active |
-| 🛡️ **WolfHeaders** | HTTP Security Headers Analyzer | 📝 Planned |
-
----
+<p align="center">
+  <img src="assets/project-dashboard.svg" width="100%" alt="Project Dashboard">
+</p>
 
 ## > tech_stack
 
