@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="900"
+<svg width="750"
      height="410"
-     viewBox="0 0 900 410"
+     viewBox="0 0 750 410"
      xmlns="http://www.w3.org/2000/svg">
 
     <style>
@@ -58,12 +58,11 @@
     <rect width="900" height="42" rx="12" fill="#161B22"/>
 
     <!-- Window Buttons -->
-    <circle cx="20" cy="21" r="6" fill="#FF5F56"/>
-    <circle cx="40" cy="21" r="6" fill="#FFBD2E"/>
-    <circle cx="60" cy="21" r="6" fill="#27C93F"/>
+
+    <circle cx="20" cy="21" r="6" fill="#27C93F"/>
 
     <!-- Title -->
-    <text x="90" y="27" class="title">WOLF TERMINAL</text>
+    <text x="35" y="27" class="title">WOLF TERMINAL</text>
     <text x="790" y="27" class="online">ONLINE</text>
 
     <!-- ================================================= -->
