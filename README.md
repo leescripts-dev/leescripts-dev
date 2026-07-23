@@ -76,27 +76,9 @@ Building cybersecurity tools and learning in public.
 
 </p>
 
----
 
-## > github_stats
 
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=leescripts-dev&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github"/>
-
-<img height="170" src="https://streak-stats.demolab.com?user=leescripts-dev&theme=github-dark-blue&hide_border=true"/>
-
-</div>
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leescripts-dev&layout=compact&theme=github_dark&hide_border=true"/>
-
-</div>
-
----
-
-## > contribution_graph
+## Contribution Graph
 
 <div align="center">
 
@@ -104,9 +86,8 @@ Building cybersecurity tools and learning in public.
 
 </div>
 
----
 
-## > contribution_snake
+## Play a Little
 
 <div align="center">
 
@@ -114,9 +95,9 @@ Building cybersecurity tools and learning in public.
 
 </div>
 
----
 
-## > connect
+
+## Connect
 
 <p align="left">
 
@@ -130,7 +111,7 @@ Building cybersecurity tools and learning in public.
 
 </p>
 
----
+
 
 <div align="center">
 
