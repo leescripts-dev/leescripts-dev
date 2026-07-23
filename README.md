@@ -1,22 +1,21 @@
 <div align="center">
 
-# 🐺 Lee
-
 ### Cybersecurity • GRC • Security Automation
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&duration=3500&pause=1200&color=58A6FF&center=true&vCenter=true&width=800&height=60&lines=Cybersecurity+Engineer;Building+WolfScan;Building+DarkWolf;Security+Automation;Open+Source+Builder)](https://git.io/typing-svg)
 
 Building cybersecurity tools and learning in public.
 
-![](https://komarev.com/ghpvc/?username=leescripts-dev&label=Profile+Views&color=58A6FF&style=flat)
 
 </div>
 
+<br><br>
+
+### About Me
 ---
+<div >
 
-<div align="center">
-
-<img src="./assets/wolf-terminal.svg" width="900" alt="Wolf Terminal"/>
+<img src="./assets/wolf-terminal.svg" width="700" alt="Wolf Terminal"/>
 
 </div>
 
