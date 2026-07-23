@@ -210,7 +210,7 @@
 
     <!-- Cursor -->
 
-    <text x="455" y="355" class="terminal" opacity="0">
+    <text x="410" y="355" class="terminal" opacity="0">
         █
 
         <set
