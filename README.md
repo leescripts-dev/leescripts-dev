@@ -39,8 +39,8 @@ Building cybersecurity tools and learning in public.
 
 ## Projects
 
-<p align="center">
-  <img src="assets/project-dashboard.svg" width="100%" alt="Project Dashboard">
+<p>
+  <img src="assets/project-dashboard.svg" width="30%" alt="Project Dashboard">
 </p>
 
 ## > tech_stack
